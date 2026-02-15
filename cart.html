@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        img{
+            width: 200px;
+        }
+
+        ul, li{
+            list-style: none;
+        }
+
+        .checkout-btn{
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Shopping Cart</h1>
+    </header>
+
+    <ul>
+        <li>
+            <img src="/images/cam.png">
+            <h3>Fujifilm X-10 </h3>
+            <p>Price: ₱16,300</p>
+            <label>
+                Quantity: 
+                <input type="number">
+            </label>
+        </li>
+
+        <li>
+            <img src="/images/cam.png">
+            <h3>Canon EOS Camera</h3>
+            <p>Price: ₱25,000</p>
+            <label>
+                Quantity: 
+                <input type="number">
+            </label>
+        </li>
+
+        <li>
+            <img src="/images/cam.png">
+            <h3>Fujifilm X Series </h3>
+            <p>Price: ₱30,000</p>
+            <label>
+                Quantity: 
+                <input type="number">
+            </label>
+        </li>
+    </ul>
+
+    <hr>
+
+    <section>
+        <h2>Subtotal: ₱71,300</h2>
+        <a href="checkout.html" class="checkout-btn">Proceed to Checkout</a>
+    </section>
+    <br>
+    <section>
+        <center><p style="font-size: 20px;">Your cart is currently empty</p></center>
+    </section>
+</body>
+</html>

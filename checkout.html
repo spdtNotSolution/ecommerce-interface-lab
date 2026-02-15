@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        button{
+            padding: 10px 25px;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+        }
+        aside{
+            width: 200px;
+            background-color: rgb(204, 209, 213);
+            padding: 20px 20px;
+            border-radius: 10px;
+        }
+        
+
+       
+    </style>
+</head>
+<body>
+    <br>
+
+    <h1>Checkout</h1>
+
+    <section>
+        <h2>Shipping Information</h2>
+        <fieldset>
+                <label>Shipping Address</label>
+                <br>
+                <br>
+                <label>Full Name:</label>
+                <br>
+                <input type="text">
+                <br>
+                <br>
+                <label>Street Address:</label>
+                <br>
+                <input type="text">
+                <br>
+                <br>
+                <label>Zip Code:</label>
+                <br>
+                <input type="number">
+        </fieldset>
+    </section>
+
+    <section>
+        <h2>Payment Details</h2>
+        <form action="signup.html">
+            <input type="radio" required>
+            <label>Credit Card</label>
+            <br>
+            <input type="radio" required>
+            <label>PayPal</label>
+            <br>
+            <br>
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+
+    <aside>
+        <h2>Order Summary</h2>
+        <p>Items: 3</p>
+        <p>Shipping fee: ₱250</p>
+        <hr>
+        <h3>Total: ₱71,550</h3>
+    </aside>
+</body>
+</html>
